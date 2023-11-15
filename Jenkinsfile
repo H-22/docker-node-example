@@ -6,6 +6,7 @@ pipeline {
         echo 'Demarrage du stage Test'
         sleep 10
         echo 'Fin du stage Test'
+        sh 'ls -al'
       }
     }
 
