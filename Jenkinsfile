@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        echo 'Démarrage du stage Test'
+        echo 'DÃ©marrage du stage Test'
         sleep 10
         echo 'Fin du stage Test'
       }
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        echo 'Démarrage du stage Build'
+        echo 'DÃ©marrage du stage Build'
         sleep 10
         echo 'Fin du stage Build'
       }
@@ -19,7 +19,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        echo 'Démarrage du stage Deploy'
+        echo 'DÃ©marrage du stage Deploy'
         sleep 10
         echo 'Fin du stage Deploy'
       }
