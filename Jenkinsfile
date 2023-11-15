@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Demarrage du stage Test'
-        sh 'docker build -t docker-node-example'
+        sh 'docker build -t docker-node-example .'
         echo 'Fin du stage Test'
       }
     }
